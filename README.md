@@ -4,7 +4,7 @@ YouTubeのコメントやチャットリプレイに含まれるネタバレ・�
 
 [Chrome Web Storeから追加](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl) ・ [公式サイト](https://spoiler-guard.vercel.app/) ・ [GitHub Releases](https://github.com/gussuri/spoiler-guard-extension/releases/latest)
 
-現在の公開版は **v0.2.9** です。通常はChrome Web Storeからのインストールをおすすめします。
+現在の最新版は、上記のChrome Web StoreまたはGitHub Releasesで確認できます。通常はChrome Web Storeからのインストールをおすすめします。
 
 ## 主な機能
 
@@ -23,13 +23,13 @@ YouTubeのコメントやチャットリプレイに含まれるネタバレ・�
 
 ### 手動インストール
 
-検証目的で手動インストールする場合は、[最新のGitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest)に添付された <code>spoiler-guard-v0.2.9.zip</code> を使用します。
+検証目的で手動インストールする場合は、[最新のGitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest)に添付された <code>spoiler-guard-vX.Y.Z.zip</code> を使用します。
 
 1. ZIPをダウンロードして展開します。
 2. Chromeで <code>chrome://extensions/</code> を開きます。
 3. 「デベロッパーモード」を有効にします。
 4. 「パッケージ化されていない拡張機能を読み込む」を選びます。
-5. 展開した <code>spoiler-guard-v0.2.9</code> フォルダを指定します。
+5. 展開した <code>spoiler-guard-vX.Y.Z</code> フォルダを指定します。
 
 ## 対応範囲
 
