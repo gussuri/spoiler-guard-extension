@@ -2,9 +2,9 @@
 
 A Chrome extension that blurs or hides potential spoilers and hints in YouTube comments and chat replays. It combines a shared blocklist with personal rules to help protect a first-time viewing experience.
 
-[Add it from the Chrome Web Store](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl) · [Official website](https://spoiler.gussuriworks.com/) · [GitHub Releases](https://github.com/gussuri/spoiler-guard-extension/releases/latest)
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl) · [Official website](https://spoiler.gussuriworks.com/) · [GitHub Releases](https://github.com/gussuri/spoiler-guard-extension/releases/latest)
 
-Check the latest version on the Chrome Web Store or GitHub Releases. The Chrome Web Store is the recommended installation method.
+For normal use, install Spoiler Guard from the Chrome Web Store, the official installation method for regular users with automatic updates. GitHub release ZIPs are provided for testing and verification only.
 
 ## Features
 
@@ -21,9 +21,11 @@ Check the latest version on the Chrome Web Store or GitHub Releases. The Chrome 
 
 [Add the extension from the Chrome Web Store](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl). Updates are delivered automatically.
 
-### Manual installation
+### Manual installation for testing
 
-For testing, use the <code>spoiler-guard-vX.Y.Z.zip</code> attached to the [latest GitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest).
+Manual installation is intended for testing and verification. For normal use, install the extension from the Chrome Web Store to receive automatic updates.
+
+GitHub Releases provide release history and ZIP packages for testing and verification. Use the <code>spoiler-guard-vX.Y.Z.zip</code> attached to the [latest GitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest).
 
 1. Download and extract the ZIP file.
 2. Open <code>chrome://extensions/</code> in Chrome.
@@ -62,6 +64,6 @@ Please use [GitHub Issues](https://github.com/gussuri/spoiler-guard-extension/is
 
 ## About this repository
 
-This repository is used to distribute ZIP packages for manual testing and to publish release information. Development and verification repositories, evaluation data, experimental code, and local secrets are not published here.
+This repository is used to distribute ZIP packages for testing and verification and to publish public release information. Development and verification repositories, evaluation data, experimental code, and local secrets are not published here.
 
 This repository is not distributed under an open-source license. No rights to copy, modify, or redistribute its contents are granted except where explicitly permitted.
