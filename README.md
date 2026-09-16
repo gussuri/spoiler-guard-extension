@@ -1,67 +1,67 @@
 # Spoiler Guard for YouTube
 
-YouTubeのコメントやチャットリプレイに含まれるネタバレ・匂わせを、ぼかしまたは非表示にするChrome拡張です。共有ブロックリストと自分専用の条件を組み合わせ、初見の視聴体験を守ります。
+A Chrome extension that blurs or hides potential spoilers and hints in YouTube comments and chat replays. It combines a shared blocklist with personal rules to help protect a first-time viewing experience.
 
-[Chrome Web Storeから追加](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl) ・ [公式サイト](https://spoiler.gussuriworks.com/) ・ [GitHub Releases](https://github.com/gussuri/spoiler-guard-extension/releases/latest)
+[Add it from the Chrome Web Store](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl) · [Official website](https://spoiler.gussuriworks.com/) · [GitHub Releases](https://github.com/gussuri/spoiler-guard-extension/releases/latest)
 
-現在の最新版は、上記のChrome Web StoreまたはGitHub Releasesで確認できます。通常はChrome Web Storeからのインストールをおすすめします。
+Check the latest version on the Chrome Web Store or GitHub Releases. The Chrome Web Store is the recommended installation method.
 
-## 主な機能
+## Features
 
-- YouTubeの通常コメントとチャットリプレイをぼかし・非表示
-- 対応動画向けの共有ブロックリストを自動取得
-- キーワードなど、自分専用のブロック条件を追加
-- 隠した理由の表示と、一時的な表示解除
-- リスト作成と共有を支援するキュレーター機能
-- 日本語・英語のUI
+- Blur or hide ordinary YouTube comments and chat replays
+- Automatically retrieve shared blocklists for supported videos
+- Add personal blocking rules, such as keywords
+- Show why an item was hidden and temporarily reveal it
+- Curator features to help create and share lists
+- Japanese and English UI
 
-## インストール
+## Installation
 
 ### Chrome Web Store
 
-[Chrome Web Storeの配布ページ](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl)から追加してください。更新も自動で配信されます。
+[Add the extension from the Chrome Web Store](https://chromewebstore.google.com/detail/filikhhcifickcnnihlahniajlhbokbl). Updates are delivered automatically.
 
-### 手動インストール
+### Manual installation
 
-検証目的で手動インストールする場合は、[最新のGitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest)に添付された <code>spoiler-guard-vX.Y.Z.zip</code> を使用します。
+For testing, use the <code>spoiler-guard-vX.Y.Z.zip</code> attached to the [latest GitHub Release](https://github.com/gussuri/spoiler-guard-extension/releases/latest).
 
-1. ZIPをダウンロードして展開します。
-2. Chromeで <code>chrome://extensions/</code> を開きます。
-3. 「デベロッパーモード」を有効にします。
-4. 「パッケージ化されていない拡張機能を読み込む」を選びます。
-5. 展開した <code>spoiler-guard-vX.Y.Z</code> フォルダを指定します。
+1. Download and extract the ZIP file.
+2. Open <code>chrome://extensions/</code> in Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked**.
+5. Choose the extracted <code>spoiler-guard-vX.Y.Z</code> folder.
 
-## 対応範囲
+## Supported environment and scope
 
-- PC版のChrome系ブラウザを対象としています。
-- 共有ブロックリストの対応作品・動画は[公式サイト](https://spoiler.gussuriworks.com/)で確認できます。
-- 共有リストがない動画でも、自分専用の条件は利用できます。
-- スマートフォン版YouTubeは対象外です。
+- Designed for desktop Chromium-based browsers.
+- Check the supported works and videos for shared blocklists on the [official website](https://spoiler.gussuriworks.com/).
+- Personal rules can be used even for videos without a shared list.
+- Mobile YouTube is not supported.
 
-## 権限とプライバシー
+## Permissions and privacy
 
-| 権限・接続先 | 用途 |
+| Permission / endpoint | Purpose |
 | --- | --- |
-| <code>storage</code> | 設定と自分専用の条件をブラウザ内に保存 |
-| <code>tabs</code> | 開いているYouTube動画との連携、設定画面や公式サイトを開く |
-| <code>youtube.com</code> | コメントとチャットリプレイを画面上で判定・表示制御 |
-| <code>spoiler.gussuriworks.com</code> | 対応動画の共有ブロックリストを取得 |
+| <code>storage</code> | Store settings and personal rules in the browser |
+| <code>tabs</code> | Integrate with open YouTube videos and open the settings screen or official website |
+| <code>youtube.com</code> | Inspect comments and chat replays on screen and control their display |
+| <code>spoiler.gussuriworks.com</code> | Retrieve shared blocklists for supported videos |
 
-通常のブロック処理はブラウザ内で行われ、閲覧中のコメント本文、投稿者名、視聴履歴を自動送信しません。リスト作成・共有機能で利用者自身が保存または送信したデータは、[公式サイトのプライバシー案内](https://spoiler.gussuriworks.com/privacy/)に従って扱われます。
+Normal blocking is performed locally in the browser. Viewed comment text, author names, and watch history are not automatically sent. Data that users save or submit through list creation and sharing features is handled according to the [official website's privacy notice](https://spoiler.gussuriworks.com/privacy/).
 
-## 注意点
+## Limitations
 
-- すべてのネタバレを完全に防ぐものではありません。
-- 文脈によっては通常のコメントが隠れる場合があります。
-- YouTubeの画面構成変更により、一時的に動作しなくなる可能性があります。
-- YouTubeおよびGoogleの公式拡張機能ではありません。
+- It cannot completely prevent all spoilers.
+- Ordinary comments may be hidden depending on the context.
+- Changes to YouTube's page structure may temporarily break the extension.
+- This is not an official YouTube or Google extension.
 
-## 問い合わせ
+## Contact
 
-不具合や要望は[GitHub Issues](https://github.com/gussuri/spoiler-guard-extension/issues)へお願いします。対応動画や共有リストについては[公式サイト](https://spoiler.gussuriworks.com/)も確認してください。
+Please use [GitHub Issues](https://github.com/gussuri/spoiler-guard-extension/issues) for bug reports and feature requests. For supported videos and shared lists, also check the [official website](https://spoiler.gussuriworks.com/).
 
-## このリポジトリについて
+## About this repository
 
-このリポジトリは、手動検証用の配布ZIPと公開リリース情報を管理する配布用リポジトリです。開発・検証用リポジトリ、評価データ、実験コード、ローカルの秘密情報は公開していません。
+This repository is a distribution repository for manually verified distribution ZIPs and public release information. Development and verification repositories, evaluation data, experimental code, and local secrets are not published here.
 
-本リポジトリにはオープンソースライセンスを設定していません。明示的に許可されていない複製・改変・再配布の権利は付与されません。
+This repository is not distributed under an open-source license. No rights to copy, modify, or redistribute its contents are granted except where explicitly permitted.
