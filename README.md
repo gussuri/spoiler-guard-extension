@@ -62,6 +62,6 @@ Please use [GitHub Issues](https://github.com/gussuri/spoiler-guard-extension/is
 
 ## About this repository
 
-This repository is a distribution repository for manually verified distribution ZIPs and public release information. Development and verification repositories, evaluation data, experimental code, and local secrets are not published here.
+This repository is used to distribute ZIP packages for manual testing and to publish release information. Development and verification repositories, evaluation data, experimental code, and local secrets are not published here.
 
 This repository is not distributed under an open-source license. No rights to copy, modify, or redistribute its contents are granted except where explicitly permitted.
